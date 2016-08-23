@@ -102,7 +102,7 @@ As **root**, create a database user and a database
 
 As the **omero** system user,
 
-Install the lastest 5.2 OMERO.server:
+Install the latest 5.2 OMERO.server:
 
 	cd ~omero
 	SERVER=http://downloads.openmicroscopy.org/latest/omero5.2/server-ice35.zip
