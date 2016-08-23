@@ -71,11 +71,7 @@ Ice 3.5:
 
 Postgres 9.4:
 
-	apt-get -y install apt-transport-https
-	add-apt-repository -y "deb https://apt.postgresql.org/pub/repos/apt/ trusty-pgdg main"
-	wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | apt-key add -
-	apt-get update
-	apt-get -y install postgresql-9.4
+	apt-get -y install postgresql
 	service postgresql start
 
 ##### Step 2:
