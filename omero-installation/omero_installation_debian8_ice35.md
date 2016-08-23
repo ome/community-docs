@@ -7,7 +7,7 @@ These instructions assume your Linux distribution is configured with a UTF-8 loc
 
 #### Institute: University of Dundee
 
-### Contact: OME External Developer List <ome-devel@lists.openmicroscopy.org.uk>
+#### Contact: OME External Developer List <ome-devel@lists.openmicroscopy.org.uk>
 
 #### Context:
 
@@ -102,14 +102,14 @@ As **root**, create a database user and a database
 
 As the **omero** system user,
 
-1. Install the lastest 5.2 OMERO.server:
+Install the lastest 5.2 OMERO.server:
 
 	cd ~omero
 	SERVER=http://downloads.openmicroscopy.org/latest/omero5.2/server-ice35.zip
 	wget $SERVER -O OMERO.server-ice35.zip
 	unzip -q OMERO.server*
 
-2. Configure the server:
+Configure the server:
 
 	ln -s OMERO.server-*/ OMERO.server
 	OMERO.server/bin/omero config set omero.data.dir "$OMERO_DATA_DIR"
