@@ -33,6 +33,7 @@ Debian 8 with Java 1.8, Ice 3.5 and PostgreSQL 9.4. Nginx 1.8 for OMERO.web
 
 The following steps describe how to install an OMERO.server and to deploy OMERO.web
 using Nginx.
+We assume that common packages like ``wget``, ``unzip`` are already installed.
 
 ##### Step 1:
 
@@ -103,6 +104,7 @@ Install the latest 5.2 OMERO.server:
 	SERVER=http://downloads.openmicroscopy.org/latest/omero5.2/server-ice35.zip
 	wget $SERVER -O OMERO.server-ice35.zip
 	unzip -q OMERO.server*
+
 
 Configure the server:
 
