@@ -11,7 +11,7 @@ These instructions assume your Linux distribution is configured with a UTF-8 loc
 
 #### Context:
 
-For convenience in this walkthrough the main OMERO configuration options have been defined as environment variables. When following this walkthrough you can either use your own values:
+For convenience in this walkthrough the main OMERO configuration options have been defined as environment variables. When following this walkthrough you should use your own values:
  
   	OMERO_DB_USER=db_user
 	OMERO_DB_PASS=db_password
