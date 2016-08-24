@@ -72,7 +72,6 @@ Ice 3.5:
 Postgres 9.4:
 
 	apt-get -y install postgresql
-	service postgresql start
 
 ##### Step 2:
 
