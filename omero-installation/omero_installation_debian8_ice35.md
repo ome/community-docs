@@ -152,7 +152,7 @@ You can now start the OMERO.server and OMERO.web manually:
 	su - omero -c "OMERO.server/bin/omero admin start"
 	su - omero -c "OMERO.server/bin/omero web start"
 
-Few scripts to start automatically are provided, see for example
+To start OMERO.server and OMERO.wed automatically, please read
 [linux walkthrough/Running OMERO](https://www.openmicroscopy.org/site/support/omero5.2/sysadmins/unix/server-linux-walkthrough.html)
 
 
