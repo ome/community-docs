@@ -1,6 +1,6 @@
 ### OMERO.server installation on Debian 8 and Ice 3.5
 
-This is an example walkthrough for installing OMERO 5.2.x on Debian 8, using a dedicated system use.
+This is an example walkthrough for installing OMERO 5.2.x on Debian 8, using a dedicated system user.
 These instructions assume your Linux distribution is configured with a UTF-8 locale.
 
 #### Name: OMERO team
@@ -153,6 +153,3 @@ You can now start the OMERO.server and OMERO.web manually:
 
 To start OMERO.server and OMERO.web automatically, please read
 [linux walkthrough/Running OMERO](https://www.openmicroscopy.org/site/support/omero5.2/sysadmins/unix/server-linux-walkthrough.html)
-
-
-
