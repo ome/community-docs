@@ -63,7 +63,7 @@ Various dependencies:
 
 Pillow: 
 	
-	pip install Pillow<3.0
+	pip install "Pillow<3.0"
 
 Ice 3.5:
 
