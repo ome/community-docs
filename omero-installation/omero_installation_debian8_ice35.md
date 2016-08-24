@@ -132,9 +132,8 @@ As **root**, install the requirements for OMERO.web:
 
 	pip install -r ~omero/OMERO.server/share/web/requirements-py27-nginx.txt
 
-As the **omero** system user,
+As the **omero** system user, configure OMERO.web
 
-	configure OMERO.web
 	OMERO.server/bin/omero config set omero.web.application_server wsgi-tcp
 	OMERO.server/bin/omero web config nginx --http "$OMERO_WEB_PORT" > OMERO.server/nginx.conf.tmp
 
