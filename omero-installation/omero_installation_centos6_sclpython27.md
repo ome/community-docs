@@ -102,6 +102,7 @@ Ice 3.5:
 
 Postgres 9.4 and reconfigure to allow TCP connections:
 
+	yum -y install http://yum.postgresql.org/9.4/redhat/rhel-6-x86_64/pgdg-centos94-9.4-2.noarch.rpm
 	yum -y install postgresql94-server postgresql94
 
 	service postgresql-9.4 initdb
